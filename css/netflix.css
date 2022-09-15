@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/NG-en-20220808-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    height: 100vh;
+}
+
+
+.signIn {
+    background-color: red;
+    border: red;
+    border-radius: 4px;
+    align-items: flex-end;
+    height: 30px;
+    width: 70px;
+    outline: none;
+    color: #fff;
+    margin-left: 1150px;
+    margin-top: 10px;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.text {
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    padding: 200px;
+}
+
+.small {
+    font-size: 18px;
+}
+.text a{
+    display: flex;
+    gap: 0;
+    text-decoration: none;
+    place-content: center; 
+}
+.text input {
+    width: 35vw;
+    height: 9vh;
+    outline: none;
+}
+
+.start {
+    width: 15vw;
+    height: 9.6vh;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 27px;
+}
+
+.mid {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    border-top: 10px solid #2e2e2e;
+}
+
+.stranger {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    border-top: 10px solid #2e2e2e;
+}
+
+.watch {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    border-top: 10px solid #2e2e2e;
+}
+
+.create {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    border-top: 10px solid #2e2e2e;
+}
+
+.end {
+    background-color: black;
+    color: #fff;
+    border-top: 10px solid #2e2e2e;
+    padding-top: 50px;
+}
+.end h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.ajuju h4{
+    font-size: 28px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.ajuju h6{
+    font-size: 50px;
+    font-weight: 500;
+    margin-right: 20px;
+    margin-top: 18px; 
+}
+.ajuju{
+    display: flex;
+    justify-content: space-between;
+    background: #2e2e2e;
+    width: 60vw;
+    height: 13vh;
+    margin-bottom: 10px;
+    margin-left: 250px;
+}
+
+
+footer {
+    background-color: black;
+    border-top: 10px solid #2e2e2e;
+    color: #2e2e2e;
+    padding-top: 20px;
+    justify-content: space-between;
+    padding-left: 230px;
+}
+
+.a {
+    display: flex;
+    gap: 8rem;
+}
+
+.foot a{
+    color: #2e2e2e;
+    text-decoration: none;
+}
+
+.foot a:hover{
+    text-decoration: underline;
+}
+
+.links a {
+    gap: 20px;
+    color: #2e2e2e;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
